@@ -53,7 +53,7 @@ sudo apt-get install ros-kinetic-ros-controllers ros-kinetic-ros-control
 sudo nano ~/.bashrc
 
 at the end of the (bashrc) file add the follwing line
-(source /home/wesam/catkin_ws/devel/setup.bash)
+(source /home/lojain/catkin_ws/devel/setup.bash)
 then
 ctrl + o
 
