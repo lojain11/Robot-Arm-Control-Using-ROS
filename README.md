@@ -59,7 +59,7 @@ source ~/.bashrc
 
 roslaunch robot_arm_pkg check_motors.launch
 
-Screenshot from 2021-07-16 19-22-43
+![Screenshot from 2021-07-16 19-22-43](https://user-images.githubusercontent.com/87448729/126088335-4686cd84-9b14-4253-8ea0-5513d947b21d.png)We 
 
 3-Control the Arm in Gazebo simulator (real simulation).
 
