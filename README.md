@@ -59,7 +59,7 @@ source ~/.bashrc
 
 roslaunch robot_arm_pkg check_motors.launch
 
-![Screenshot from 2021-07-16 19-22-43](https://user-images.githubusercontent.com/87448729/126088335-4686cd84-9b14-4253-8ea0-5513d947b21d.png)We 
+![Screenshot from 2021-07-16 19-22-43](https://user-images.githubusercontent.com/87448729/126088335-4686cd84-9b14-4253-8ea0-5513d947b21d.png)
 
 3-Control the Arm in Gazebo simulator (real simulation).
 
@@ -71,6 +71,6 @@ roslaunch robot_arm_pkg check_motors_gazebo.launch
 
 rosrun robot_arm_pkg joint_states_to_gazebo.py
 
-Screenshot from 2021-07-16 19-42-26
+![Screenshot from 2021-07-16 19-42-26](https://user-images.githubusercontent.com/87448729/126088742-2b8c8a3c-04e8-4feb-b454-3d60e859f2ab.png)
 
 Task is Done .
