@@ -1,6 +1,5 @@
 # Robot-Arm-Control-Using-ROS
 Control a robot arm actuator using Robot Operating System (ROS) platform with Rviz, Gazebo and Moveit Simulator.
-
 1-Install Ubuntu to work with ROS platform. I will use Ubuntu-18.04 .
 
 2-Instal ROS Melodic using the commands bellow in the terminal.
@@ -59,3 +58,19 @@ ctrl + o
 source ~/.bashrc
 
 roslaunch robot_arm_pkg check_motors.launch
+
+Screenshot from 2021-07-16 19-22-43
+
+3-Control the Arm in Gazebo simulator (real simulation).
+
+cd catkin/src/arduino_robot_arm/robot_arm_pkg/scripts then sudo chmod +x joint_states_to_gazebo.py
+
+roslaunch robot_arm_pkg check_motors.launch
+
+roslaunch robot_arm_pkg check_motors_gazebo.launch
+
+rosrun robot_arm_pkg joint_states_to_gazebo.py
+
+Screenshot from 2021-07-16 19-42-26
+
+Task is Done .
